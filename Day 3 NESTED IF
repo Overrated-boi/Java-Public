@@ -1,0 +1,23 @@
+package Day3;
+import java.util.Scanner;
+public abstract class Nestedif {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		if(a>=18) {
+			System.out.println("ELIGIBLE TO VOTE");
+			if(a>=24) {
+				System.out.println("ELIGIBLE FOR CANDIDATE");
+			}
+			else {
+				System.out.println("NOT ELIGIBLE FOR CANDIDATE");
+			}
+		}
+		else {
+			System.out.println("NOT ELIGIBLE TO VOTE");
+		}
+	}
+
+}
