@@ -1,0 +1,14 @@
+package Day4;
+import java.util.Scanner;
+public class factorial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();int s=1;
+		while(a!=1) {
+			s=s*a;
+			a--;
+		}System.out.println(s);
+	}
+}
