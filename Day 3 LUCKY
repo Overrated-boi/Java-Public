@@ -1,0 +1,25 @@
+package Day3;
+import java.util.*;
+public class lucky {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	    Scanner sc=new Scanner(System.in);
+	    int a=sc.nextInt();
+	    String s=Integer.toString(a);
+	    boolean m=false;boolean n=false;
+	    for(int i=0;i<s.length();i++){
+	        if(s.charAt(i)=='4'){
+	            m=true;}
+	        if(s.charAt(i)=='7'){
+	            n=true;
+	        }
+	    }if(m==true&&n==true){
+	        System.out.println("YES");
+	    }
+	    else{
+	        System.out.println("NO");
+	    }
+	}
+
+}
