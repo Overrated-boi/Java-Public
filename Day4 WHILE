@@ -1,0 +1,15 @@
+package Day4;
+import java.util.Scanner;
+public class whileLoop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int a=20;
+		while(a!=-1) {
+			System.out.println(a);
+			a--;
+		}
+	}
+
+}
