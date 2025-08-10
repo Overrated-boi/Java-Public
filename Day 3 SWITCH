@@ -1,0 +1,19 @@
+package Day3;
+import java.util.Scanner;
+public class switchp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		switch(a) {
+		case 1:
+			System.out.println("Hi");
+			break;
+		case 2:
+			System.out.println("Hello");
+		default:
+			System.out.println("BYE");
+		}
+	}
+}
