@@ -1,0 +1,16 @@
+package Day4;
+import java.util.Scanner;
+public class reverse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int s=0;
+		while(a!=0) {
+			int t=a%10;
+			s=s*10+t;
+			a=a/10;
+		}System.out.println(s);
+	}	
+}
