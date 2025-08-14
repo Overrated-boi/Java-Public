@@ -1,0 +1,38 @@
+package Day8;
+
+public class Trip {
+	String Location;
+	String Food;
+	int Price;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	Trip t1=new Trip();;
+	t1.Location="Nagercoil";
+	t1.Food="Beef Biriyani";
+	t1.Price=100;
+	System.out.println(t1.Location);
+	System.out.println(t1.Food);
+	System.out.println(t1.Price);
+	System.out.println("_________________________");
+
+	Trip t2=new Trip();;
+	t2.Location="Madurai";
+	t2.Food="Parotta";
+	t2.Price=70;
+	System.out.println(t2.Location);
+	System.out.println(t2.Food);
+	System.out.println(t2.Price);
+	System.out.println("__________________________");
+	
+	Trip t3=new Trip();;
+	t3.Location="Dindugul";
+	t3.Food="Thalappakattu Biriyani";
+	t3.Price=120;
+	System.out.println(t2.Location);
+	System.out.println(t2.Food);
+	System.out.println(t2.Price);
+	System.out.println("__________________________");
+	}
+
+}
