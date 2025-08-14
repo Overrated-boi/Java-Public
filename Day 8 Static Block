@@ -1,0 +1,12 @@
+package Day8;
+
+public class staticBlock {
+static {
+	System.out.println("Mount Zion!");
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("<3 :)  :D");
+	}
+
+}
