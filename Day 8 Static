@@ -1,0 +1,20 @@
+package Day8;
+
+public class Static {
+		int n=7;
+		String name="Raja";
+		static String s=" BAD";
+		
+		void display(int n,String name) {
+			System.out.println(n+" "+name+" "+s);
+		}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Static ss=new Static();
+		ss.display(1,"BREAKING");
+		ss.display(ss.n,ss.name);
+		Static.s="Shameer";
+		ss.display(ss.n,ss.name);
+	}
+
+}
