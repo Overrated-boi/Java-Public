@@ -1,0 +1,16 @@
+package Day8;
+
+public class StaticMethod {
+	
+	int a=10;
+	static String s="PEAKY BLINDERS!";
+	public static void show(int a,String str) {
+		System.out.println(a+" "+str);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		show(9,s);
+		StaticMethod.s="BREAKING BAD*";
+		show(7,s);
+	}
+}
