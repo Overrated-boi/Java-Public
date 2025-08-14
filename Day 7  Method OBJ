@@ -1,0 +1,46 @@
+package Day7;
+
+public class myString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s=" Shameer ";
+		String s1="Shameer";
+		System.out.println(s);
+		System.out.println(s1);
+		String str=new String("Object man");
+		String str1=new String("ObjecT");
+		System.out.println(str);
+		System.out.println(str1);
+		System.out.println(str==str1);
+		System.out.println(str.equalsIgnoreCase(str1));
+		System.out.println(s.trim());
+		System.out.println(s);
+		String word[]=str.split(" ");
+		for(String var:word) {
+			System.out.println(var+" ");
+		}
+		System.out.println(s.substring(0,3));
+		
+		System.out.println(s.contains("am"));
+		System.out.println(s.startsWith(" Sh"));
+		System.out.println(s.endsWith("s"));
+		System.out.println(s.charAt(2));
+		System.out.println(s.concat(str1));
+		System.out.println(s.toUpperCase());
+		System.out.println(s.toLowerCase());
+		//String buffer is Sync
+		//String builder pauses multiple (performance ++)
+		StringBuffer sb=new StringBuffer("My");
+		sb.append("Name");
+		System.out.println(sb);
+		sb.insert(3, " ");
+		System.out.println(sb);
+		sb.delete(0,2);
+		System.out.println(sb);
+		sb.reverse();
+		System.out.println(sb);
+		sb.replace(0,2,"AAa");
+		System.out.println(sb);
+	}
+}
