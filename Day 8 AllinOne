@@ -1,0 +1,26 @@
+package Day8;
+
+public class allinone {
+	static {
+		System.out.println("THIS IS A STATIC BLOCK !");
+	}
+	int a=10;
+	static String s="Deva";
+	
+	public void method(String s) {
+		System.out.println(s);
+	}
+	
+	public static void smethod(int a) {
+		System.out.println(a);
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		allinone aa=new allinone();
+		aa.method(s);
+		allinone.s="Coolie";
+		aa.method(s);
+		smethod(67);
+	}
+}
