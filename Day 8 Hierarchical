@@ -1,0 +1,29 @@
+package Day8;
+class Dad1{
+	void Property() {
+		System.out.println("House");
+	}
+}
+
+class Ram extends Dad1{
+	void Owns() {
+		System.out.println("Bike");
+	}
+}
+
+class Her extends Dad1{
+	void Own() {
+		System.out.println("Chain");
+	}
+}
+public class hierarchal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Ram r1=new Ram();
+		Her h1=new Her();
+		r1.Property();
+		h1.Property();
+	}
+
+}
