@@ -1,0 +1,13 @@
+package Day7;
+
+public class voidmethod {
+	
+	public void display() {
+		System.out.println("Hello World!");
+	}
+	public static void main(String args[]) {
+		voidmethod vo=new voidmethod();
+		vo.display();
+	}
+
+}
