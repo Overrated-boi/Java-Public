@@ -1,0 +1,15 @@
+package Day7;
+
+public class WITHargNOreturn {
+
+	public void method(int a,int b){
+		int s=a+b;
+		System.out.println(s);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n=1,n1=4;
+		WITHargNOreturn obj=new WITHargNOreturn();
+		obj.method(n,n1);
+	}
+}
