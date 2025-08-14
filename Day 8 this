@@ -1,0 +1,26 @@
+package Day8;
+
+public class thisk {
+
+	int a;
+	
+	thisk(int a){
+		this.a=a;
+	}
+	
+	void show() {
+		System.out.println("HI");
+	}
+	
+	void display() {
+		System.out.println(a);
+		this.show();
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		thisk t = new thisk(10);
+		t.display();
+	}
+
+}
