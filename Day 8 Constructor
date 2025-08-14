@@ -1,0 +1,27 @@
+package Day8;
+
+public class constructor {
+	
+	int age;
+	String str;
+constructor(){
+	System.out.println("HI");
+}
+
+constructor(int a,String s){
+	age=a;
+	str=s;
+}
+
+void display()
+{
+	System.out.println(age);
+	System.out.println(str);
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		constructor c=new constructor(1,"Hello");
+		c.display();
+	}
+
+}
