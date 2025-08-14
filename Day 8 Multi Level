@@ -1,0 +1,30 @@
+package Day8;
+
+class Grandpa{
+	void gra() {
+		System.out.println("Villa");
+	}
+}
+
+class DAD extends Grandpa{
+	void property() {
+		System.out.println("House");
+	}
+}
+
+class SON extends DAD{
+	void prop() {
+		System.out.println("Cycle");
+	}
+}
+public class multi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SON s=new SON();
+		s.property();
+		s.gra();
+		s.prop();
+	}
+
+}
